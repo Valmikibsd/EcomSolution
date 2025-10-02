@@ -1,0 +1,15 @@
+D:\Ecom\Ecom.Application\bin\Debug\net9.0\Ecom.Application.deps.json
+D:\Ecom\Ecom.Application\bin\Debug\net9.0\Ecom.Application.dll
+D:\Ecom\Ecom.Application\bin\Debug\net9.0\Ecom.Application.pdb
+D:\Ecom\Ecom.Application\bin\Debug\net9.0\Ecom.Core.dll
+D:\Ecom\Ecom.Application\bin\Debug\net9.0\Ecom.Core.pdb
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.Application.csproj.AssemblyReference.cache
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.Application.AssemblyInfoInputs.cache
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.Application.AssemblyInfo.cs
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.Application.csproj.CoreCompileInputs.cache
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.App.23C5D0F5.Up2Date
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.Application.dll
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\refint\Ecom.Application.dll
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.Application.pdb
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\ref\Ecom.Application.dll
