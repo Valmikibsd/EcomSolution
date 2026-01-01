@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ecom.Core\Ecom.Core.csproj" />
+    <ProjectReference Include="..\Ecom.Infrastructure\Ecom.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

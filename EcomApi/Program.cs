@@ -34,6 +34,16 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 .AddEntityFrameworkStores<ApplicationDbContext>()
 .AddDefaultTokenProviders();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder => builder
+            //.AllowAnyOrigin() // or .WithOrigins("http://localhost:5173") for tighter control
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
+
 // Jwt settings
 builder.Services.Configure<JwtSettings>(configuration.GetSection("Jwt"));
 var jwtSettings = configuration.GetSection("Jwt").Get<JwtSettings>();
@@ -182,6 +192,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseCors("AllowAll");
 app.MapControllers();
 app.UseStaticFiles();
 

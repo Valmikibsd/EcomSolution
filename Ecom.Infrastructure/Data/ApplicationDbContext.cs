@@ -16,11 +16,23 @@ namespace Ecom.Infrastructure.Data
         {
         }
         public DbSet<Product> Products => Set<Product>();
-
+        public DbSet<Order> Orders => Set<Order>();
+        public DbSet<OrderItem> OrderItems => Set<OrderItem>();
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
             builder.Entity<Product>().Property(p => p.Price).HasColumnType("decimal(18,2)");
+            builder.Entity<Order>()
+           .HasMany(o => o.Items)
+           .WithOne(i => i.Order)
+           .HasForeignKey(i => i.OrderId);
+
+            builder.Entity<Order>(entity =>
+            {
+                entity.Property(e => e.OrderNo).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.UserId).IsRequired().HasMaxLength(250);
+                entity.Property(e => e.TotalAmount).HasColumnType("decimal(18,2)");
+            });
         }
 
     }

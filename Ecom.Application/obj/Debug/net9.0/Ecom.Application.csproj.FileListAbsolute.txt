@@ -13,3 +13,6 @@ D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.Application.dll
 D:\Ecom\Ecom.Application\obj\Debug\net9.0\refint\Ecom.Application.dll
 D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.Application.pdb
 D:\Ecom\Ecom.Application\obj\Debug\net9.0\ref\Ecom.Application.dll
+D:\Ecom\Ecom.Application\bin\Debug\net9.0\Ecom.Infrastructure.dll
+D:\Ecom\Ecom.Application\bin\Debug\net9.0\Ecom.Infrastructure.pdb
+D:\Ecom\Ecom.Application\obj\Debug\net9.0\Ecom.Application.sourcelink.json

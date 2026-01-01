@@ -1768,7 +1768,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "AutoMapper": "15.0.1",
-          "Ecom.Core": "1.0.0"
+          "Ecom.Core": "1.0.0",
+          "Ecom.Infrastructure": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Ecom.Application.dll": {}
@@ -5227,7 +5228,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

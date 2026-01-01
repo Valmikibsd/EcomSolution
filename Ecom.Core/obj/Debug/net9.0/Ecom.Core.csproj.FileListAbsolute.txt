@@ -9,3 +9,4 @@ D:\Ecom\Ecom.Core\obj\Debug\net9.0\Ecom.Core.dll
 D:\Ecom\Ecom.Core\obj\Debug\net9.0\refint\Ecom.Core.dll
 D:\Ecom\Ecom.Core\obj\Debug\net9.0\Ecom.Core.pdb
 D:\Ecom\Ecom.Core\obj\Debug\net9.0\ref\Ecom.Core.dll
+D:\Ecom\Ecom.Core\obj\Debug\net9.0\Ecom.Core.sourcelink.json

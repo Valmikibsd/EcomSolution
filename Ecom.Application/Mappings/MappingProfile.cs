@@ -11,5 +11,7 @@ public class MappingProfile : Profile
         CreateMap<Product, ProductDto>().ReverseMap();
         CreateMap<CreateProductDto, Product>();
         CreateMap<UpdateProductDto, Product>().ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
+        CreateMap<OrderDto,Order>();
+
     }
 }
