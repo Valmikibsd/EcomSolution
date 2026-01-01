@@ -74,6 +74,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<Ecom.Application.Interfaces.IProductService, ProductService>();
+builder.Services.AddScoped<Ecom.Application.Interfaces.IOrderService, OrderService>();
 //builder.Services.AddAutoMapper(typeof(MappingProfile));
 // Replace this line:
 // builder.Services.AddAutoMapper(typeof(MappingProfile));
