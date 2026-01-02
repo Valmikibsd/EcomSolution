@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Ecom.Application.DTOs;
+using Ecom.Application.Exceptions;
 using Ecom.Application.Interfaces;
 using Ecom.Core.Entities;
 using Ecom.Core.Interfaces;
@@ -25,6 +26,10 @@ namespace Ecom.Application.Services
 
         public async Task CreateOrderAsync(CreateOrderDto dto, string userId)
         {
+            if (dto.Items == null || !dto.Items.Any()) throw new ArgumentException("Order must contain at least one item.");
+            if (string.IsNullOrEmpty(userId))  throw new ArgumentException("User ID cannot be null or empty.");
+            var user = await _context.Users.FindAsync(userId);
+            if (user == null) throw new NotFoundException("User not found.");
             var order = new Order
             {
                 UserId = userId,
